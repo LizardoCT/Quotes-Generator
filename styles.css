@@ -187,6 +187,7 @@ button:active{
         background-image: url(bg.jpg);
         background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
     }
 
     .quote-container{
@@ -198,6 +199,7 @@ button:active{
         box-shadow: .4rem .4rem #F16197,
                 .5rem .5rem black;
         border: 2px solid black;
+        overflow: hidden;
     }
 
     .quote-text{
