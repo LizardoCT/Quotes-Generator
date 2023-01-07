@@ -199,7 +199,6 @@ button:active{
         box-shadow: .4rem .4rem #F16197,
                 .5rem .5rem black;
         border: 2px solid black;
-        overflow: hidden;
     }
 
     .quote-text{
@@ -222,5 +221,9 @@ button:active{
     }
     .signature a{
         color: rgb(182, 35, 35);
+    }
+    .pink1,
+    .pink2, .stars{
+        display: none;
     }
 }
